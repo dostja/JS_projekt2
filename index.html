@@ -10,33 +10,14 @@
   <body>
     <h1>Superkvíz o Janičce</h1>
 
-    <!-- přidat <div> pro kvíz -->
     <div class="kviz">
       <div id="vysledek" class="konecne-vysledky">
         <h2 id="vysledek-h2">Tvoje hodnocení</h2>
-        <div id="konecne-odpovedi">
-         <!--<div id="prvni-odpoved"></div>
-         <div id="tvoje-prvni-odpoved"><span>Tvoje odpověď je </span>X</div>
-          <div id="vyhodnoceni-prvni-odpovedi"> <span>A to je </span>X</div>
-          <div id="druha-odpoved"></div>
-          <div id="tvoje-druha-odpoved"><span>Tvoje odpověď je </span>X</div>
-          <div id="vyhodnoceni-druha-odpovedi"> <span>A to je </span>X</div>
-          <div id="treti-odpoved"></div>
-          <div id="tvoje-treti-odpoved"><span>Tvoje odpověď je </span>X</div>
-          <div id="vyhodnoceni-treti-odpovedi"> <span>A to je </span>X</div>
-          <div id="ctvrta-odpoved"></div>
-          <div id="tvoje-ctvrta-odpoved"><span>Tvoje odpověď je </span>X</div>
-          <div id="vyhodnoceni-ctvrta-odpovedi"> <span>A to je </span>X</div>
-          <div id="pata-odpoved"></div>
-          <div id="tvoje-pata-odpoved"><span>Tvoje odpověď je </span>X</div>
-          <div id="vyhodnoceni-pata-odpovedi"> <span>A to je </span>X</div>
-        </div>--> 
-       
+        <div id="konecne-odpovedi"></div>
+        <div>
+          <h2 id="vyhodnoceni"></h2>
+        </div>
       </div>
-      <div>
-        <h2 id="vyhodnoceni"></h2>
-      </div>
-</div>
       <div id="kviz">
         <div class="hlavicka">
           <div id="poradi">Otázka <span id="cislo">x</span> /5</div>
@@ -44,7 +25,11 @@
         </div>
         <div class="obsah">
           <div class="foto">
-            <img id="obrazek" src="/obrazky/received_594894057969773.jpeg" alt="" />
+            <img
+              id="obrazek"
+              src="/obrazky/received_594894057969773.jpeg"
+              alt=""
+            />
           </div>
           <div id="moznosti">
             <ul id="odpovedi"></ul>
@@ -52,10 +37,6 @@
         </div>
       </div>
     </div>
-    
-
-    <!-- do něj přidat <div>y pro samotné držení otázky -->
-    <!-- také nezapomenout na <div> pro výsledek a hodnocení -->
 
     <script src="kviz.js"></script>
   </body>

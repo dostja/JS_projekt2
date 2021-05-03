@@ -5,31 +5,26 @@ let poleOdpovedi = [];
 let seznamOtazek = [
   {
     textOtazky: "Jak se jmenuje její pes?",
-    obrazek: "obrazky/moncicak.jpg",
     mozneOdpovedi: ["Ramba", "Mamba", "Namba"],
     spravnaOdpoved: 1,
   },
   {
     textOtazky: "Kolik je jí let na fotce?",
-    obrazek: "obrazky/pivo.jpg",
     mozneOdpovedi: ["5", "8", "25"],
     spravnaOdpoved: 1,
   },
   {
     textOtazky: "Jaká je její nejoblíbenější barva?",
-    obrazek: "obrazky/ovoce.jpg",
     mozneOdpovedi: ["cyklámenová", "hořčicová", "petrolejová"],
     spravnaOdpoved: 2,
   },
   {
     textOtazky: "Jaké je její povolání?",
-    obrazek: "obrazky/snehurka.jpg",
     mozneOdpovedi: ["Učitelka", "Kadeřnice", "Oděvní návrhář"],
     spravnaOdpoved: 2,
   },
   {
     textOtazky: "Kolik v životě chovala dětí?",
-    obrazek: "obrazky/pivo.jpg",
     mozneOdpovedi: ["10", "7", "3"],
     spravnaOdpoved: 2,
   },
